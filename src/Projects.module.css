@@ -1,0 +1,84 @@
+.projects{
+    height: 100vh;
+    background-color: #a30870;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBar{
+    width: 80%;
+    height: 80%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.top{
+    width: 100%;
+    border: 1px solid;
+    height: 30%;
+}
+.bot{
+    width: 100%;
+    border: 1px solid;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+}
+.one{
+    border: 1px solid;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.two{
+    border: 1px solid;
+    width: 40%;
+    height: 100%;
+}
+.oneBot{
+    width: 100%;
+    height: 30%;
+    background-color: dimgrey;
+
+}
+.twoTop{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(17, 231, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twoBot{
+    width: 100%;
+    height: 30%;
+    background-color: dimgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.twoTopButton{
+    background-color: rgb(56, 30, 204);
+    width: 30%;
+    height: 10%;
+    font-size: 20px;
+}
+.twoBotTop{
+width: 50%;
+height: 20%;
+background-color: floralwhite;
+}
+.twoBotBot{
+width: 80%;
+height: 40%;
+background-color: floralwhite;
+}

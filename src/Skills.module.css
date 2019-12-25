@@ -1,0 +1,72 @@
+.skills{
+    height: 100vh;
+    background-color: #08ad5b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navBar{
+    width: 80%;
+    height: 80%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.top{
+    width: 100%;
+    border: 1px solid;
+    height: 30%;
+}
+.bot{
+    width: 100%;
+    border: 1px solid;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+}
+.one{
+    border: 1px solid;
+    width: 25%;
+    height: 100%;
+    background-color: aliceblue;
+
+}
+.two{
+    border: 1px solid;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.three{
+    border: 1px solid;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.twoBot{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 40%;
+    background-color: cadetblue;
+}
+.threeTop{
+    width: 40%;
+    height: 20%;
+    background-color: dimgrey;
+}
+.threeBot{
+    width: 100%;
+    height: 40%;
+    background-color: cadetblue;
+}
